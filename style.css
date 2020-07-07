@@ -1,0 +1,86 @@
+.nav-top{
+    background-color: #f8f9fc;
+    margin-left: 7%;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 1072px;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-top img{
+    width: 170px;
+}
+.big img {
+    width: 100px;
+}
+.top{
+    background-image: url("images/background-image/biography-bg.png");
+}
+.head-line{
+    margin-left: 100px;
+}
+.head-paragraph{
+    margin-left: 100px;
+    color: gray;
+    padding: 21px 0px;
+}
+.black{
+    background-color: black !important;
+    margin-left: 100px;
+}
+.btn-dark {
+    color: #fff;
+    background-color: black;
+    border-color: #343a40;
+    margin-left: 100px;
+}
+.for-fix {
+    margin-top: 200px;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #ffcc1c;
+    width: 36px;
+    height: 10px;
+}
+
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+#product {
+   background-image: url(images/background-image/biography-bg.png);
+}
+.card{
+    background-color: #f8f9fc;
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+.card-body{
+    background-color: #f8f9fc;
+}
+#product button{
+    margin: 0;
+}
+#product .see{
+    color: #f3bc00;
+}
